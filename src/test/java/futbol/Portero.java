@@ -48,7 +48,7 @@ public class Portero extends Futbolista{
 	}
 	
 	public String toString() {
-		return "El Futbolista " + getNombre() + " tiene " + getEdad() + ", y juega de " + getPosicion() + " con el dorsal " + this.dorsal + ". Le han marcado" + golesRecibidos;
+		return "El futbolista " + getNombre() + " tiene " + getEdad() + ", y juega de " + getPosicion() + " con el dorsal " + this.dorsal + ". Le han marcado " + golesRecibidos;
 	}
 
 
